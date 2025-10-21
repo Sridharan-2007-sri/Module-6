@@ -25,7 +25,23 @@ To write a Python program that demonstrates **operator overloading** by overload
 ---
 
 ## 💻 Program
+```
+class A:
+    def _init_(self,a):
+        self.a=a
+    def _lt_(self,other):
+        return self.a<other.a
+ob1 = A(2)
+
+ob2 = A(3)
+if ob2<ob1:
+    print("ob2 is less than ob1")
+else:
+    print("ob1 is less than ob2")
+```
 
 ## Output
+![alt text](c64.jpg)
 
 ## Result
+A Python program that demonstrates **operator overloading** by overloading the **less than (`<`)** operator using a custom class was completed successfully and output was generated.
