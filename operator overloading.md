@@ -27,9 +27,9 @@ To write a Python program that demonstrates **operator overloading** by overload
 ## 💻 Program
 ```
 class A:
-    def _init_(self,a):
+    def __init__(self,a):
         self.a=a
-    def _lt_(self,other):
+    def __lt__(self,other):
         return self.a<other.a
 ob1 = A(2)
 
